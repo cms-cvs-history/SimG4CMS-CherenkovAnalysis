@@ -1,0 +1,7 @@
+es_source = XMLIdealGeometryESSource {
+  vstring geomXMLFiles = {
+             "Geometry/CMSCommonData/data/materials.xml",
+             "SimG4CMS/CherenkovAnalysis/data/singleDREAM.xml"
+   }
+   string rootNodeName = "singleDREAM:DREAM"
+}
