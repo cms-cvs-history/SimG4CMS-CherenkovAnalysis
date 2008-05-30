@@ -1,10 +1,12 @@
-<library file="*.cpp" name=CherenkovAnalysisTest>
- <use name=FWCore/Framework>
- <use name=FWCore/MessageLogger>
- <use name=FWCore/ParameterSet>
- <use name=FWCore/ServiceRegistry>
- <use name=PhysicsTools/UtilAlgos>
- <use name=SimDataFormats/CaloHit>
- <use name=rootcore>
- <flags EDM_PLUGIN=1>
-</library>
+<use name=FWCore/Framework>
+<use name=FWCore/MessageLogger>
+<use name=FWCore/ParameterSet>
+<use name=FWCore/ServiceRegistry>
+<use name=PhysicsTools/UtilAlgos>
+<use name=SimDataFormats/CaloHit>
+<use name=DQMServices/Core>
+<use name=boost>
+<use name=root>
+<flags EDM_PLUGIN=1>
+<library file="CherenkovAnalysis.cpp" name=CherenkovAnalysisTest></library>
+<library file="XtalDedxAnalysis.cpp"  name=XtalDedxAnalysisTest></library>
