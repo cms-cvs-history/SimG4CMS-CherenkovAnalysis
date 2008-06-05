@@ -19,4 +19,5 @@ module VtxSmeared = GaussEvtVtxGenerator {
     double SigmaX = 0.0000
     double SigmaY = 0.0000
     double SigmaZ = 0.0000
+    double TimeOffset = 0.
 }
