@@ -13,6 +13,7 @@ source = FlatRandomEGunSource {
 
 # Don't smear our vertex!
 module VtxSmeared = GaussEvtVtxGenerator {
+    InputTag src = source
     double MeanX = 0.
     double MeanY = -2.0
     double MeanZ = 0.
